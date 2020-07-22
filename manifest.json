@@ -4,7 +4,7 @@
   "api_version": "1",
   "name": "System Management Direct",
   "description": "Direct access to Lock, Suspend, Shut Down and Restart commands",
-  "developer_name": "Geoff Hackett",
+  "developer_name": "episode6, Inc.",
   "icon": "icon.svg",
   "preferences": [
     {
