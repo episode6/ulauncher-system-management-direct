@@ -1,6 +1,8 @@
 # ulauncher-system-management-direct
 
-[Ulauncher](https://ulauncher.io) extension allowing you to lock, suspend, reboot and shut down your system.
+[Ulauncher](https://ulauncher.io) extension allowing you to lock, suspend, reboot and shut down your system w/o an additional sub-menu.
+
+![](screencast-demo.gif)
 
 
 This extension is using experimental techniques to make Ulauncher keywords look and behave like apps. This comes with a couple of minor caveats but as of writing this, it works fine. These techniques were lifted from https://github.com/friday/ulauncher-gnome-settings
