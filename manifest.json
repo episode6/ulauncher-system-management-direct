@@ -1,0 +1,39 @@
+{
+  "manifest_version": "2",
+  "required_api_version": "2",
+  "api_version": "1",
+  "name": "System Management Direct",
+  "description": "Direct access to Lock, Suspend, Shut Down and Restart commands",
+  "developer_name": "Geoff Hackett",
+  "icon": "icon.svg",
+  "preferences": [
+    {
+      "id": "lock-screen",
+      "type": "keyword",
+      "name": "Lock Screen",
+      "default_value": "Lock Screen",
+      "description": "Lock your screen"
+    },
+    {
+      "id": "restart",
+      "type": "keyword",
+      "name": "Restart",
+      "default_value": "Restart",
+      "description": "Restart the system"
+    },
+    {
+      "id": "suspend",
+      "type": "keyword",
+      "name": "Suspend / Sleep",
+      "default_value": "Suspend / Sleep",
+      "description": "Put the system to sleep"
+    },
+    {
+      "id": "shutdown",
+      "type": "keyword",
+      "name": "Shut Down",
+      "default_value": "Shut Down",
+      "description": "Shut down system"
+    }
+  ]
+}
