@@ -34,6 +34,13 @@
       "name": "Shut Down / Power Off",
       "default_value": "Shut Down / Power Off",
       "description": "Shut down system"
+    },
+    {
+      "id": "hibernate",
+      "type": "keyword",
+      "name": "Hibernate",
+      "default_value": "Hibernate",
+      "description": "Hibernate system"
     }
   ]
 }
