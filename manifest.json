@@ -5,7 +5,7 @@
   "name": "System Management Direct",
   "description": "Direct access to Lock, Suspend, Shut Down and Restart commands",
   "developer_name": "episode6, Inc.",
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "preferences": [
     {
       "id": "lock-screen",
