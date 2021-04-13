@@ -33,5 +33,7 @@ class KeywordQueryEventListener(EventListener):
       subprocess.Popen(['systemctl', 'poweroff', '-i'])
     if id == 'restart':
       subprocess.Popen(['systemctl', 'reboot', '-i'])
+    if id == 'hibernate':
+      subprocess.Popen(['systemctl', 'hibernate'])
 
 SystemManagementDirect().run()
